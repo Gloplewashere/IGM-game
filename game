@@ -1,0 +1,31 @@
+Let's make a game!
+name:nothing
+author:I
+by:Me
+desc:have fun?
+created:04/21/2026
+updated:04/21/2026
+version:0.0.1
+
+Settings
+no bulk particles
+
+Layout
+*main
+  contains:res, buttons
+  *res
+    contains:Resources
+    class:fullWidth
+  *buttons
+    contains:Buttons
+*store
+  contains:buildings, upgrades
+  *buildings
+    contains:BulkDisplay, Buildings
+    header:Buildings
+    tooltip origin:left
+  *upgrades
+    contains:Upgrades
+    header:Upgrades
+    costs:hide
+    names:hide
