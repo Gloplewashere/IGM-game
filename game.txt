@@ -53,6 +53,12 @@ Resources
 		icon:icons[0,0]
 		class:noBackground
 		show earned
+   *oakPlank|oakPlanks
+		name:oak plank|oak planks
+		desc:These are your bunnies. You can use them to purchase things. Your goal is to have as many bunnies as possible!
+		icon:icons[0,0]
+		class:noBackground
+		show earned
 Upgrades
 	*TEMPLATE
 		on click:anim glow
@@ -60,5 +66,5 @@ Achievements
   *Minecraft
     name:Wowie! Ten whole clicks!
     desc:You've clicked the big red button 10 times. Well done. Well done indeed.
-    req:4 wood
+    req:4 oakPlanks
 Items
