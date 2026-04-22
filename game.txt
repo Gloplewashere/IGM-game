@@ -5,7 +5,7 @@ by:Me
 desc:have fun?
 created:04/21/2026
 updated:04/21/2026
-version:0.0.2
+version:0.0.1
 
 Settings
 	background:stuff/meadow.jpg
@@ -36,7 +36,7 @@ Buttons
 		name:Mine a tree
 		desc:Click to find a tree to mine
 		on click:anim icon wobble
-		on click:yield 1 wood
+		on click:yield 1 oakLog
 		icon:stuff/bunny.png
 		no text
 		class:bigButton hasFlares
