@@ -14,16 +14,15 @@ Settings
 
 Layout
 *main
-  contains:res, buttons, ach
-  *ach
-	 contains:Achievements
+  contains:res, buttons
+
   *res
     contains:Resources
     class:fullWidth
   *buttons
     contains:Buttons
 *store
-  contains:buildings, upgrades
+  contains:buildings, upgrades, ach
   *buildings
     contains:BulkDisplay, Buildings
     header:Buildings
@@ -33,6 +32,7 @@ Layout
     header:Upgrades
     costs:hide
     names:hide
+  *ach
 Buttons
  	*bunnyButton
 		name:Mine a tree
