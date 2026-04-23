@@ -14,14 +14,14 @@ Settings
 
 Layout
 *main
-  contains:res, buttons,
+  contains:res, buttons
   *res
     contains:Resources
     class:fullWidth
   *buttons
     contains:Buttons
 *store
-  contains:buildings, upgrades,ach
+  contains:buildings, upgrades, ach
   *buildings
     contains:BulkDisplay, Buildings
     header:Buildings
