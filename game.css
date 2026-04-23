@@ -1,0 +1,28 @@
+#box-res {
+    width: 30%;
+    height: 100%;
+    right: 30%;
+    position: absolute;
+}
+
+#box-things-Resources {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#box-buttons {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 20%;
+}
+#box-store{
+    width: 60%;
+    height: 100%;
+    left: 20%;
+    position: absolute;
+}
