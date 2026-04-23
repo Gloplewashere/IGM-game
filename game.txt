@@ -46,7 +46,6 @@ Buttons
 		class:hasFlares
 		tooltip origin:bottom
 		tooltip class:red
-    hide thingSelector
 
 Buildings
   name:Name
