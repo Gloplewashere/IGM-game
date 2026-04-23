@@ -25,8 +25,8 @@ Layout
   contains:buildings, upgrades, ach
   *buildings
     contains:BulkDisplay, Buildings
-    header:Buildings
-    tooltip origin:left
+    header:Crafting
+    tooltip origin:top
   *upgrades
     contains:Upgrades
     header:Upgrades
@@ -48,7 +48,6 @@ Buttons
 		tooltip class:red
 
 Buildings
-  name:Name
 	*TEMPLATE
 		on click:anim glow
 Resources
