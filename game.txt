@@ -54,13 +54,13 @@ Resources
 	*oakLog|oakLogs
 		name:oak log|oak logs
 		desc:These are your bunnies. You can use them to purchase things. Your goal is to have as many bunnies as possible!
-		icon:data:icons[0,0]
+		icon:icons[0,0]
 		class:noBackground
 		show earned
    *oakPlank|oakPlanks
 		name:oak plank|oak planks
 		desc:These are your bunnies. You can use them to purchase things. Your goal is to have as many bunnies as possible!
-		icon:data:icons[0,0]
+		icon:icons[0,0]
 		class:noBackground
 		show earned
 Upgrades
