@@ -10,7 +10,7 @@ version:0.0.2
 Settings
 	background:https://raw.githubusercontent.com/Gloplewashere/IGM-game/refs/heads/main/images/background.png
   no bulk particles
-  stylesheet:https://raw.githubusercontent.com/Gloplewashere/IGM-game/refs/heads/main/game.css
+  stylesheet:https://raw.githubusercontent.com/Gloplewashere/IGM-game/refs/heads/main/gameCSS.txt
   spritesheet:icons, 48 by 48, https://raw.githubusercontent.com/Gloplewashere/IGM-game/refs/heads/main/images/spritesheet.png
 
 Layout
