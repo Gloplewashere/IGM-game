@@ -1,7 +1,7 @@
 #box-res {
-    width: 30%;
+    width: 20%;
     height: 100%;
-    right: 30%;
+    right: 0%;
     position: absolute;
 }
 
@@ -20,9 +20,11 @@
     left: 0%;
     width: 20%;
 }
-#box-store{
+
+#box-store {
     width: 60%;
     height: 100%;
     left: 20%;
     position: absolute;
+    top: 50%;
 }
