@@ -18,21 +18,23 @@ Layout
   contains:res, buttons
   *res
     contains:Resources
-    names:hide
   *buttons
     contains:Buttons
     names:hide
 *store
-  header:Crafting
-  contains:buildings, upgrades, ach
+  contains:BulkDisplay,buildings, upgrades, ach
   *buildings
-    contains:BulkDisplay, Buildings
+    header:Locations
+    contains: Buildings
     tooltip origin:top
+  *crafting
+    header:Crafting
+    contains:Upgrades
+    costs:hide
   *upgrades
     contains:Upgrades
     header:Upgrades
     costs:hide
-    names:hide
   *ach
     contains:Achievements
 Buttons
@@ -56,7 +58,7 @@ Buttons
 		class:hasFlares
 		tooltip origin:bottom
 		tooltip class:red
-
+Crafting
 Buildings
 	*TEMPLATE
 		on click:anim glow
@@ -71,24 +73,27 @@ Resources
 		desc:These are your bunnies. You can use them to purchase things. Your goal is to have as many bunnies as possible!
 		icon:icons[2,3]
 		class:noBackground
-    show earned
 	*oakLog|oakLogs
 		name:oak log|oak logs
 		desc:These are your bunnies. You can use them to purchase things. Your goal is to have as many bunnies as possible!
 		icon:icons[0,3]
 		class:noBackground
+     show earned
+
    *oakPlank|oakPlanks
 		name:oak plank|oak planks
 		desc:These are your bunnies. You can use them to purchase things. Your goal is to have as many bunnies as possible!
 		icon:icons[1,3]
 		class:noBackground
+        show earned
+
 Upgrades
 	*TEMPLATE
 		on click:anim glow
 Achievements
   *Minecraft
     hidden
-    name:Wowie! Ten whole clicks!
+    name:crafting
     desc:You've clicked the big red button 10 times. Well done. Well done indeed.
     req:4 oakPlanks
     icon:icons[0,2]
