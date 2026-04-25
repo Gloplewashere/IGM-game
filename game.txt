@@ -46,7 +46,6 @@ Buttons
 		class:hasFlares
 		tooltip origin:bottom
 		tooltip class:red
-		show earned
   *oakTree
     hidden
 		name:Mine an oak tree
