@@ -14,6 +14,16 @@
     align-items: flex-start;
 }
 
+#box-things-Buttons .thing-icon {
+    width: 96px;
+    height: 96px;
+
+}
+
+.box-header {
+    text-align: center;
+}
+
 #box-buttons {
     position: absolute;
     top: 0%;
