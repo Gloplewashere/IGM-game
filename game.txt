@@ -41,8 +41,8 @@ Buttons
 		name:Exploring
 		desc:Search for Anything
 		on click:anim icon wobble
-		on click:yield .1 oakLog
-		icon:icons[1,0]
+		on click:yield 1 EP
+		icon:icons[0,0]
 		class:hasFlares
 		tooltip origin:bottom
 		tooltip class:red
@@ -52,8 +52,8 @@ Buttons
 		name:Mine an oak tree
 		desc:Click to find a tree to mine
 		on click:anim icon wobble
-		on click:yield .1 oakLog
-		icon:icons[1,0]
+		on click:yield 1 oakLog
+		icon:icons[2,0]
 		class:hasFlares
 		tooltip origin:bottom
 		tooltip class:red
@@ -61,7 +61,20 @@ Buttons
 Buildings
 	*TEMPLATE
 		on click:anim glow
+  *oakTreePlains
+		name:oak log|oak logs
+		desc:These are your bunnies. You can use them to purchase things. Your goal is to have as many bunnies as possible!
+		icon:icons[0,3]
+		class:noBackground
+		show earned
 Resources
+	*EP
+		name:EP
+		desc:These are your bunnies. You can use them to purchase things. Your goal is to have as many bunnies as possible!
+		icon:icons[0,3]
+		class:noBackground
+		hide earned
+    hidden
 	*oakLog|oakLogs
 		name:oak log|oak logs
 		desc:These are your bunnies. You can use them to purchase things. Your goal is to have as many bunnies as possible!
