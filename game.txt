@@ -69,10 +69,9 @@ Resources
 	*EP
 		name:EP
 		desc:These are your bunnies. You can use them to purchase things. Your goal is to have as many bunnies as possible!
-		icon:icons[0,3]
+		icon:icons[2,3]
 		class:noBackground
     show earned
-    hidden
 	*oakLog|oakLogs
 		name:oak log|oak logs
 		desc:These are your bunnies. You can use them to purchase things. Your goal is to have as many bunnies as possible!
