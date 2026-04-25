@@ -36,8 +36,19 @@ Layout
   *ach
     contains:Achievements
 Buttons
-  
- 	*bunnyButton
+ 	*explore
+    shown
+		name:Exploring
+		desc:Search for Anything
+		on click:anim icon wobble
+		on click:yield .1 oakLog
+		icon:icons[1,0]
+		class:hasFlares
+		tooltip origin:bottom
+		tooltip class:red
+
+  *oakTree
+    hidden
 		name:Mine an oak tree
 		desc:Click to find a tree to mine
 		on click:anim icon wobble
@@ -68,6 +79,7 @@ Upgrades
 		on click:anim glow
 Achievements
   *Minecraft
+    hidden
     name:Wowie! Ten whole clicks!
     desc:You've clicked the big red button 10 times. Well done. Well done indeed.
     req:4 oakPlanks
