@@ -58,7 +58,7 @@ Buttons
 		class:hasFlares
 		tooltip origin:bottom
 		tooltip class:red
-		req: 1 oakTree
+		req:1 oakTree
 
 Buildings
 	*TEMPLATE
@@ -66,7 +66,7 @@ Buildings
   *oakTreePlains
 		name:plains
 		desc:Nice tree areas
-		icon:icons[0,3]
+		icon:icons[0,4]
 		on click:	yield 5 oakTrees
 		cost:20 EP
 		class:noBackground
@@ -77,9 +77,9 @@ Resources
 		icon:icons[2,3]
 		class:noBackground
 	*oakTree|oakTrees
-		name:oakTree | oakTrees
-		desc:These are your bunnies. You can use them to purchase things. Your goal is to have as many bunnies as possible!
-		icon:icons[2,3]
+		name:oakTree|oakTrees
+		desc:A single tree with alot of materials
+		icon:icons[1,4]
 		class:noBackground
 	*oakLog|oakLogs
 		name:oak log|oak logs
