@@ -64,9 +64,12 @@ Buildings
 	*TEMPLATE
 		on click:anim glow
   *oakTreePlains
-		name:oak log|oak logs
-		desc:These are your bunnies. You can use them to purchase things. Your goal is to have as many bunnies as possible!
+		name:plains
+		desc:Nice Z
 		icon:icons[0,3]
+		on click:yield 5 oakTree
+		cost:20 EP
+		no buy
 		class:noBackground
 Resources
 	*EP
