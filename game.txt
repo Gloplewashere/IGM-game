@@ -67,7 +67,7 @@ Buildings
 		name:plains
 		desc:Nice tree areas
 		icon:icons[0,4]
-		on click:	yield 5 oakTrees
+		on click:yield 5 oakTrees
 		cost:20 EP
 		class:noBackground
 Resources
