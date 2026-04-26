@@ -29,7 +29,7 @@ Layout
     tooltip origin:top
   *crafting
     header:Crafting
-    contains:Upgrades
+    contains:tag:crafting
     costs:hide
   *upgrades
     contains:Upgrades
@@ -58,7 +58,8 @@ Buttons
 		class:hasFlares
 		tooltip origin:bottom
 		tooltip class:red
-Crafting
+
+
 Buildings
 	*TEMPLATE
 		on click:anim glow
