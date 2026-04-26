@@ -22,7 +22,7 @@ Layout
     contains:Buttons
     names:hide
 *store
-  contains:BulkDisplay,buildings, upgrades, ach
+  contains:BulkDisplay, buildings, crafting, upgrades, ach
   *buildings
     header:Locations
     contains: Buildings
