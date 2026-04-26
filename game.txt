@@ -25,7 +25,7 @@ Layout
   contains:BulkDisplay, buildings, crafting, upgrades, ach
   *buildings
     header:Locations
-    contains: Buildings
+    contains:Buildings
     tooltip origin:top
   *crafting
     header:Crafting
