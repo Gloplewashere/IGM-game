@@ -48,7 +48,7 @@ Buttons
 		class:hasFlares
 		tooltip origin:bottom
 		tooltip class:red
-  *oakTree
+  *oakTreeBtn
     hidden
 		name:Mine an oak tree
 		desc:Click to find a tree to mine
@@ -58,22 +58,26 @@ Buttons
 		class:hasFlares
 		tooltip origin:bottom
 		tooltip class:red
-
+		req: 1 oakTree
 
 Buildings
 	*TEMPLATE
 		on click:anim glow
   *oakTreePlains
 		name:plains
-		desc:Nice Z
+		desc:Nice tree areas
 		icon:icons[0,3]
-		on click:yield 5 oakTree
+		on click:	yield 5 oakTrees
 		cost:20 EP
-		no buy
 		class:noBackground
 Resources
 	*EP
 		name:EP
+		desc:These are your bunnies. You can use them to purchase things. Your goal is to have as many bunnies as possible!
+		icon:icons[2,3]
+		class:noBackground
+	*oakTree|oakTrees
+		name:oakTree | oakTrees
 		desc:These are your bunnies. You can use them to purchase things. Your goal is to have as many bunnies as possible!
 		icon:icons[2,3]
 		class:noBackground
