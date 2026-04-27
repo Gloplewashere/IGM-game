@@ -44,21 +44,21 @@ Buttons
 		desc:Search for Anything
 		on click:anim icon wobble
 		on click:yield 1 EP
+		on start:yield 20 EP
 		icon:icons[0,0]
 		class:hasFlares
 		tooltip origin:bottom
 		tooltip class:red
   *oakTreeBtn
-    hidden
-		name:Mine an oak tree
-		desc:Click to find a tree to mine
-		on click:anim icon wobble
-		on click:yield 1 oakLog
-		icon:icons[2,0]
-		class:hasFlares
-		tooltip origin:bottom
-		tooltip class:red
-		req:1 oakTree
+    hidden when 0
+	name:Mine an oak tree
+	desc:Click to find a tree to mine
+	on click:anim icon wobble
+	on click:yield 1 oakLog
+	icon:icons[2,0]
+	class:hasFlares
+	tooltip origin:bottom
+	tooltip class:red
 
 Buildings
 	*TEMPLATE
@@ -68,6 +68,7 @@ Buildings
 		desc:Nice tree areas
 		icon:icons[0,4]
 		on click:yield 5 oakTrees
+		on click:yield -1 oakTrees
 		cost:20 EP
 		class:noBackground
 Resources
@@ -81,6 +82,7 @@ Resources
 		desc:A single tree with alot of materials
 		icon:icons[1,4]
 		class:noBackground
+		req:1 oakTreePlains
 	*oakLog|oakLogs
 		name:oak log|oak logs
 		desc:These are your bunnies. You can use them to purchase things. Your goal is to have as many bunnies as possible!
