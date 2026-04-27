@@ -12,7 +12,7 @@ Settings
   no bulk particles
   stylesheet:https://raw.githubusercontent.com/Gloplewashere/IGM-game/refs/heads/main/gameCSS.txt
   spritesheet:icons, 48 by 48, https://raw.githubusercontent.com/Gloplewashere/IGM-game/refs/heads/main/images/spritesheet.png
-
+	building cost refund:-100%
 Layout
 *main
   contains:res, buttons
@@ -50,16 +50,29 @@ Buttons
 		tooltip origin:bottom
 		tooltip class:red
   *oakTreeBtn
-    hidden when 0
+
 	name:Mine an oak tree
 	desc:Click to find a tree to mine
 	on click:anim icon wobble
-	on click:yield 1 oakLog
+	on click:
+		if (oakTreePlains:)
+		yield 1 oakLog
+		if (chance(0%))
+			
+			lose .25 oakTreeBtn
+		end
+
+	end
+	on earn:
+		if (chance(0%))
+			
+			lose .25 oakTreeBtn
+		end
 	icon:icons[2,0]
 	class:hasFlares
 	tooltip origin:bottom
 	tooltip class:red
-
+	req: 1 oakTreePlains
 Buildings
 	*TEMPLATE
 		on click:anim glow
